@@ -141,7 +141,7 @@ int main() {
     // Initialize the snake
     SnakeLogic snake({WIDTH / 2, HEIGHT / 2}); // Start the snake in the center
 
-    // Define a target for the snake to chase (e.g., a static point on the grid)
+    // Define a target for the snake to chase 
     Position target = {WIDTH / 4, HEIGHT / 4};
 
     // Start the game loop
